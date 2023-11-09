@@ -1,7 +1,7 @@
 
 # Galytix_assingment
 
-Weather app.
+Weather app (https://galytix-assignment.vercel.app/)
 
 
 ## Installation Steps
