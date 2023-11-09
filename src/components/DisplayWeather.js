@@ -34,15 +34,7 @@ function DisplayWeather(props) {
               <table>
               <tbody>
               <tr>
-                  <td>
-                    <h4>High/Low</h4>
-                  </td>
-                  <td>
-                    <span>
-                      {Math.floor(data.main.temp_max - 273.15)}/
-                      {Math.floor(data.main.temp_min - 273.15)}
-                    </span>
-                  </td>
+
                 </tr>
                 <tr>
                   <td>
@@ -53,20 +45,10 @@ function DisplayWeather(props) {
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <h4>Pressure</h4>
-                  </td>
-                  <td>
-                    <span>{data.main.pressure} hPa</span>
-                  </td>
+
                 </tr>
                 <tr>
-                  <td>
-                    <h4>Visibility</h4>
-                  </td>
-                  <td>
-                    <span>{data.visibility / 1000} Km</span>
-                  </td>
+                  
                 </tr>
               </tbody>
               </table>
@@ -95,24 +77,10 @@ function DisplayWeather(props) {
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <h4>Sunrise</h4>
-                  </td>
-                  <td>
-                    <span>
-                      {new Date(data.sys.sunrise * 1000).toLocaleTimeString()}
-                    </span>
-                  </td>
+              
                 </tr>
                 <tr>
-                  <td>
-                    <h4>Sunset</h4>
-                  </td>
-                  <td>
-                    <span>
-                      {new Date(data.sys.sunset * 1000).toLocaleTimeString()}
-                    </span>
-                  </td>
+
                 </tr>
                 </tbody>
               </table>
